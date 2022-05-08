@@ -44,7 +44,8 @@ const adminJsOptions = {
         },
         userModel,
         jobDetailModel,
-        jobApplicationModel],
+        jobApplicationModel    
+    ],
     rootPath: '/admin',
 }
 

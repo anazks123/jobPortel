@@ -61,5 +61,7 @@ const JobApplicationSchema = new mongoose.Schema({
   },
 });
 
-module.exports = JobApplication = mongoose.model( 'jobapplications',JobApplicationSchema
+module.exports = JobApplications = mongoose.model(
+  'jobapplication',
+  JobApplicationSchema
 );

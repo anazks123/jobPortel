@@ -1,4 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://anazks:anaz123@cluster0.jxpil.mongodb.net/jobportalmain?retryWrites=true&w=majority",
+    "mongoURI": "mongodb+srv://nithyasainu:nithyasainu@cluster0.h6weg.mongodb.net/job3?retryWrites=true&w=majority",
     "jwtSecret": "0cd3258a848477698fff334c144e4c12f32112608704acd3c17d7798b0ebc4b0340f0f3156ea2672e121c32297fa169ca3839df8a4e1a075104ac35d6bbfe139"
 }
+//mongodb+srv://nithyasainu:nithyasainu@cluster0.h6weg.mongodb.net/job?retryWrites=true&w=majority
+///mongodb+srv://anazks:anaz123@cluster0.jxpil.mongodb.net/job?retryWrites=true&w=majority

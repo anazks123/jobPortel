@@ -27,8 +27,13 @@ const Register = ({
 
   const onSubmit = (e) => {
     e.preventDefault();
-    if (password !== password2) {
+    const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+if (password !== password2) {
+
       setAlert('Passwords doesnt match', 'danger');
+      
+    }else if(regex.test(formData.email) === false){
+      setAlert('unfomated email', 'danger');
     } else {
       register({ name, email, password, jobType });
     }
